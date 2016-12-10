@@ -1,0 +1,10 @@
+name: Ticket-Man
+description: Ticket-Man
+main: me.jdon.mod.req.Modreq
+author: jdon
+version: 1.0
+depend: [SQLibrary]
+commands:
+  ticket:
+    description: Opens a ticket
+    usage: Type /ticket

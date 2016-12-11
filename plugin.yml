@@ -1,10 +1,16 @@
-name: Ticket-Man
-description: Ticket-Man
-main: me.jdon.mod.req.Modreq
-author: jdon
-version: 1.0
-depend: [SQLibrary]
+name: TicketManager
+main: net.dawn.mc.micheldewit.plugin.Modreq
+version: 1.2.0
+author: Micheldewit
+softdepends: []
+description: Serverside Ticketmanager, goes in coop with TicketMan-Web services.
+
 commands:
-  ticket:
-    description: Opens a ticket
-    usage: Type /ticket
+   ticket:
+     description: Token management command.
+     aliases: [tokens]
+
+permissions:
+  TickerManager.Staff:
+    description: Grants access to all TicketManager Permissions.
+
